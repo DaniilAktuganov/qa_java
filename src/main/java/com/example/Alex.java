@@ -16,10 +16,7 @@ public class Alex extends Lion{
 
     public List<String> getFriends() {
         List<String> alexFriends = new ArrayList<>();
-        alexFriends.add("зебра Марти");
-        alexFriends.add("бегемотиха Глория");
-        alexFriends.add("жираф Мелман");
-        return alexFriends;
+        return List.of("зебра Марти", "бегемотиха Глория", "жираф Мелман");
     }
 
     public String getPlaceOfLiving() {
