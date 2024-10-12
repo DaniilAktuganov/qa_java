@@ -19,7 +19,7 @@ public class CatTest {
     private Cat cat;
 
     @Before
-    public void setUo() {
+    public void setUp() {
         cat = new Cat(feline);
     }
 
